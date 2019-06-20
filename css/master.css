@@ -1,0 +1,127 @@
+body {
+	text-align: center;
+	font-family: lato, arial, sans-serif;
+	font-weight: 400;
+}
+
+section {
+	padding: 75px 75px;
+}
+
+.alt-background {
+	background-color: rgb(247,247,247);
+	padding: 50px 75px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: pacifico, cursive;
+	float: left;
+	font-size: 36px;
+	line-height: 41px;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	
+}
+nav ul li {
+	float: left;
+}
+nav ul li a {
+	color: #ffffff;
+	padding: 15px 20px;
+	border: 1px solid rgba(255,255,255,0);
+	line-height: 41px;
+}
+
+nav ul li a:hover {
+	border: 1px solid rgba(255,255,255,1);
+	border-radius: 3px;
+}
+
+#topSection h2 {
+	clear: both;
+	margin: 100px 0 15px;
+}
+#topSection h3 {
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 900;
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+#topSection {
+	background-image: url(../images/main_image_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	
+}
+#topSection h2 {
+	
+}
+#topSection h3 {
+	
+}
+
+#main_benefit figure {
+	float:  left;
+	width: 33.3%;
+}
+
+a.button {
+	padding: 25px 40px;
+}
+
+a.primary {
+	background-color: red;
+}
+
+a.warning {
+	background-color: red;
+}
+
+a.action {
+	background-color: green;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+
